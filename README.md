@@ -13,16 +13,6 @@ Debunking Fake News in Online Social Networks Without Text: A New Perspective fr
 * PyYAML = 6.0.1
 
 
-## Datasets
-
-We give an example dataset "toy" in /data/ directory to show the input formats of datasets. The toy dataset is just used to show the input format, it's not suitable for experiments.
-```
-* hypergraph.npy: incidence matrix, where nodes represent users and news represent hyperedges. 
-* node_feats.npy: credibiliti-related user attributes. 
-* edge_labels.json: labels of news.
-* edge_feats.npy: news attributes, which are only used for ComE-DeFakeT, if you consider the textual information from news text. 
-```
-The datasets can be downloaded through: [Politifact, Gossipcop](https://github.com/KaiDMML/FakeNewsNet), [ReCOVery](https://github.com/apurvamulay/ReCOVery), and [MM-COVID](https://github.com/bigheiniu/MM-COVID). 
 
 
 ## Training Configuration
@@ -45,11 +35,6 @@ To run the code on GPU
 
 ```
 python train.py --data_prefix <dataset_path> --dataset <dataset_name>  --train_config ./configs/config.yaml --gpu -1
-```
-
-For example, to run dataset 'toy' on CPU:
-```
-python train.py --data_prefix ./data/ --dataset toy  --train_config ./configs/config.yaml --gpu -1
 ```
 
 
