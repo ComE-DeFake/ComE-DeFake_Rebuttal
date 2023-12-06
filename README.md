@@ -1,6 +1,7 @@
 # WWW Rebuttal of ComE-DeFake 
 
 ## 1. Early Detection Results (The Newly Added Experiment)
+[![Image text](https://github.com/ComE-DeFake/ComE-DeFake_Rebuttal/tree/main/figuresrecovery_early_acc.pdf)](https://github.com/ComE-DeFake/ComE-DeFake_Rebuttal/blob/main/figures/recovery_early_acc.pdf)
 
 ## 2. The Updated Table 2 (The Newly Added Baselines)
 
