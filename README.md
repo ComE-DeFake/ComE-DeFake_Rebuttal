@@ -1,10 +1,23 @@
-# ComE-DeFake
-An PyTorch implement of ComE-DeFake in paper:
+# WWW Rebuttal of ComE-DeFake 
 
-Debunking Fake News in Online Social Networks Without Text: A New Perspective from Community-Driven Hypergraph Learning
+## 1. Early Detection Results (The Newly Added Experiment)
 
-## Dependencies
+## 2. The Updated Table 2 (The Newly Added Baselines)
 
+## 3. Dataset Introduction
+
+## 4. t-SNE of original and ours
+
+## 5. Statistical Significance
+
+## 6. Running Time
+
+## 7. Comparison of Structured Methods
+
+
+## 8. PyTorch Implementation
+
+### Dependencies
 * python = 3.8.0
 * pytorch = 1.12.0
 * numpy = 1.24.3
@@ -12,16 +25,10 @@ Debunking Fake News in Online Social Networks Without Text: A New Perspective fr
 * scikit-learn = 1.3.0
 * PyYAML = 6.0.1
 
-
-
-
-## Training Configuration
-
+### Training Configuration
 The hyperparameters needed in training can be set via the configuration file: `./configs/config.yaml`.
 
-
-## Run Training
-
+### Run Training
 First of all, we suggest looking through the available command line arguments defined in `./utility/globals.py`. 
 
 To run the code on CPU
@@ -29,7 +36,6 @@ To run the code on CPU
 ```
 python train.py --data_prefix <dataset_path> --dataset <dataset_name>  --train_config ./configs/config.yaml --gpu -1
 ```
-
 
 To run the code on GPU
 
