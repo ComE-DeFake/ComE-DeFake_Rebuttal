@@ -17,7 +17,7 @@
 
 ## 8. PyTorch Implementation
 
-### Dependencies
+### 8.1. Dependencies
 * python = 3.8.0
 * pytorch = 1.12.0
 * numpy = 1.24.3
@@ -25,10 +25,10 @@
 * scikit-learn = 1.3.0
 * PyYAML = 6.0.1
 
-### Training Configuration
+### 8.2. Training Configuration
 The hyperparameters needed in training can be set via the configuration file: `./configs/config.yaml`.
 
-### Run Training
+### 8.3. Run Training
 First of all, we suggest looking through the available command line arguments defined in `./utility/globals.py`. 
 
 To run the code on CPU
