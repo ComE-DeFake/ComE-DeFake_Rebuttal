@@ -7,6 +7,12 @@
   <img src="/figures/recovery_early_users.png" alt="image2" width="300">
 </div>
 
+### 1.1 Results on dataset MM-C
+<div style="display:inline-block">
+  <img src="/figures/mmcovid_early_acc.png" alt="image1" width="300">
+  <img src="/figures/mmcovid_early_users.png" alt="image2" width="300">
+</div>
+
 ## 2. The Updated Table 2 (The Newly Added Baselines)
 ![Table2](https://github.com/ComE-DeFake/ComE-DeFake_Rebuttal/blob/main/figures/table2.png)
 
