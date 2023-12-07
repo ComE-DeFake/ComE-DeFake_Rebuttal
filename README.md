@@ -44,7 +44,8 @@ We compared our proposed method with the three latest methods: BERTweet [1], Lla
 | __ReCOV__  |   33.4   | 136.1| 4.6   |  0.03     |   22.8    |   0.39    |  16.1  |   6.8    | 20.9  |   1.4  |   0.27      |
 | __MM-C__   |   67     |290.6 |  26.9 |  0.09     |   --      |    0.29   |  10.2  |   30.5   | 106.4 |  1     |   0.19      |
 
-## 7. Comparison of Structured Methods
+## 7. Comparison of Structure-based Methods
+
 
 
 ## 8. PyTorch Implementation
