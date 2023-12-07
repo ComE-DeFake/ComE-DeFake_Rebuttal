@@ -24,7 +24,7 @@ We compared our proposed method with the three latest methods: BERTweet [1], Lla
 ![tSNE](https://github.com/ComE-DeFake/ComE-DeFake_Rebuttal/blob/main/figures/tsne_all.png)
 
 
-## 5. Statistical Significance
+## 5. Statistical Significance - P Value
 
 
 | ReCOV | ComE-DeFake | ComE-DeFake |  ComE-DeFake | ComE-DeFake | ComE-DeFake | ComE-DeFake | ComE-DeFake |  ComE-DeFake | ComE-DeFake | ComE-DeFake |
@@ -37,6 +37,12 @@ We compared our proposed method with the three latest methods: BERTweet [1], Lla
 
 
 ## 6. Running Time
+
+|  Datasets  | TextCNN  | HAN  |  BERT |  TextGCN  |  HyperGAT |  DualEmo  | HGFND  |  BERTweet| Llama |  HG-SL | ComE-DeFake |
+| ---------- | -------- | -----| ----- |---------- |---------- |---------- |------- |--------- |------ |------- |------------ |
+|            |  (C)     | (C)  | (G)   |   (G)     |    (G)    |    (G)    |   (G)  |   (G)    |   (G) | (G)    |   (G)       |
+| __ReCOV__  |   33.4   | 136.1| 4.6   |  0.03     |   22.8    |   0.39    |  16.1  |   6.8    | 20.9  |   1.4  |   0.27      |
+| __MM-C__   |   67     |290.6 |  26.9 |  0.09     |   --      |    0.29   |  10.2  |   30.5   | 106.4 |  1     |   0.19      |
 
 ## 7. Comparison of Structured Methods
 
