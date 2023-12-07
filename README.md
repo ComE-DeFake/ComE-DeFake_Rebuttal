@@ -26,6 +26,16 @@ We compared our proposed method with the three latest methods: BERTweet [1], Lla
 
 ## 5. Statistical Significance
 
+
+| ReCOV | ComE-DeFake | ComE-DeFake |  ComE-DeFake | ComE-DeFake | ComE-DeFake | ComE-DeFake | ComE-DeFake |  ComE-DeFake | ComE-DeFake | ComE-DeFake |
+| --- | ----------- | ----------- | ----------- |----------- |----------- |----------- |----------- |----------- |----------- |----------- |
+|         | __TextCNN__     | __HAN__         |      __BERT__   |   __TextGCN__   |   __HyperGAT__  |   __DualEmo__   | __HGFND__       |    __BERTweet__ | __Llama__     |   __HG-SL__     |
+| __ACC__  | 1.06e-05 | 3.65e-06 | 9.07e-05 | 5.12e-05 |  | 0.0007   | 0.0066 | 2.61e-06 | 0.0097 | 0.0067 |
+| __Pre__  | 1.79e-05 | 1.58e-06 | 0.0016   | 0.0023   |  | 0.0005   | 0.0021 | 4.58e-06 | 0.0029 | 0.0067 |
+| __Rec__  | 2.94e-05 | 0.0012   | 0.0039   | 0.0002   |  | 0.0007   | 0.0067 | 9.07e-05 | 0.0218 | 0.0056 |
+| __F1__   | 5.16e-05 | 1.26e-05 | 5.14e-05 | 9.00e-04 |  | 5.00e-04 | 0.0023 | 6.37e-05 | 0.0099 | 0.0058 |
+
+
 ## 6. Running Time
 
 ## 7. Comparison of Structured Methods
