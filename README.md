@@ -46,6 +46,37 @@ We compared our proposed method with the three latest methods: BERTweet [1], Lla
 
 ## 7. Comparison of Structure-based Methods
 
+![Structured-based Methds](https://github.com/ComE-DeFake/ComE-DeFake_Rebuttal/blob/main/figures/methods_comparison.png)
+
+[1].	Jing Ma, Wei Gao, and Kam-Fai Wong. 2018. Rumor Detection on Twitter with Tree-structured Recursive Neural Networks. In ACL. 1980–1989. 
+
+[2].	Tian Bian, Xi Xiao, Tingyang Xu, Peilin Zhao, Wenbing Huang, Yu Rong, and Junzhou Huang. 2020. Rumor detection on social media with bi-directional graph convolutional networks. In AAAI. 549–556. 
+
+[3].	Nir Rosenfeld, Aron Szanto, and David C. Parkes. 2020. A Kernel of Truth: Determining Rumor Veracity on Twitter by Diffusion Pattern Alone. In WWW. 1018–1028. 
+
+[4].	Van-Hoang Nguyen, Kazunari Sugiyama, Preslav Nakov, and Min-Yen Kan. 2020. FANG: Leveraging Social Context for Fake News Detection Using Graph Representation. In CIKM. 1165–1174. 
+
+[5].	Yingtong Dou, Kai Shu, Congying Xia, Philip S Yu, and Lichao Sun. 2021. User preference-aware fake news detection. In SIGIR. 2051–2055. 
+
+[6].	Yuxiang Ren and Jiawei Zhang. 2021. Fake news detection on news-oriented heterogeneous information networks through hierarchical graph attention. In IJCNN. 1–8. 
+
+[7].	Ruichao Yang, Jing Ma, Hongzhan Lin, and Wei Gao. 2022. A Weakly Supervised Propagation Model for Rumor Verification and Stance Detection with Multiple Instance Learning. In SIGIR. 1761–1772. 
+
+[8].	Yiqiao Jin, Xiting Wang, Ruichao Yang, Yizhou Sun, Wei Wang, Hao Liao, and Xing Xie. 2022. Towards fine-grained reasoning for fake news detection. In AAAI. 5746–5754.
+
+[9].	Ruichao Yang, Xiting Wang, Yiqiao Jin, Chaozhuo Li, Jianxun Lian, and Xing Xie. 2022. Reinforcement Subgraph Reasoning for Fake News Detection. In KDD. 2253–2262. 
+
+[10].	Erxue Min, Yu Rong, Yatao Bian, Tingyang Xu, Peilin Zhao, Junzhou Huang, and Sophia Ananiadou. 2022. Divide-and-Conquer: Post-User Interaction Network for Fake News Detection on Social Media. In WWW. 1148–1158. 
+
+[11].	Ujun Jeong, Kaize Ding, Lu Cheng, Ruocheng Guo, Kai Shu, and Huan Liu. 2022. Nothing stands alone: Relational fake news detection with hypergraph neural networks. In Big Data. 596–605. 
+
+[12].	Sun, X., Yin, H., Liu, B., Meng, Q., Cao, J., Zhou, A. and Chen, H.. 2022. Structure learning via meta-hyperedge for dynamic rumor detection. IEEE Transactions on Knowledge and Data Engineering. 
+
+[13].	Nikhil Mehta, Maria Leonor Pacheco, and Dan Goldwasser. 2022. Tackling Fake News Detection by Continually Improving Social Context Representations using Graph Neural Networks. In ACL. 1363–1380.
+
+[14].	Xing Su, Jian Yang, Jia Wu, and Yuchen Zhang. 2023. Mining User-Aware Multi-Relations for Fake News Detection in Large Scale Online Social Networks. In WSDM. 51–59. 
+
+[15].	Ling Sun, Yuan Rao, Yuqian Lan, Bingcan Xia, and Yangyang Li. 2023. HG-SL: Jointly Learning of Global and Local User Spreading Behavior for Fake News Early Detection. In AAAI. 5248–5256. 
 
 
 ## 8. PyTorch Implementation
