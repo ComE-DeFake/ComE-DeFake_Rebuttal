@@ -20,6 +20,27 @@ We compared our proposed method with the three latest methods: BERTweet [1], Lla
 
 ## 3. Dataset Introduction
 
+### 3.1 User Attributes
+We use 6 user-relevant features crawled by Twitter API to be user attributes of our model: 
+
+* `'followers_count'`: The number of followers.  
+* `'friends_count'`: The number of users this account is following (AKA their “followings”). 
+* `'listed_count'`: The number of public lists that this user is a member of. 
+* `'verified'`: When true, indicates that the user has a verified account.
+* `'statuses_count'`: The number of Tweets (including retweets) issued by the user.  
+* `'favourites_count'`: The number of Tweets this user has liked in the account’s lifetime. 
+
+
+### 3.2 Format of Crawled Row Data
+For each piece of source news, we crawl its relevant tweets through Twitter API. The format of a crawled tweet can be read as a dictionary format in Python. The list of Keys of this dictionary is shown below:
+
+``
+['created_at', 'id', 'id_str', 'text', 'truncated', 'entities', 'source', 'in_reply_to_status_id', 'in_reply_to_status_id_str', 'in_reply_to_user_id', 'in_reply_to_user_id_str', 'in_reply_to_screen_name', 'user', 'geo', 'coordinates', 'place', 'contributors', 'is_quote_status', 'retweet_count', 'favorite_count', 'favorited', 'retweeted', 'possibly_sensitive', 'lang']
+``
+
+The value of `'user'` in the above list is again a dictionary that contains, but not only, the features we described in __3.1__.
+
+
 ## 4. Comparison of t-SNE visualization
 ![tSNE](https://github.com/ComE-DeFake/ComE-DeFake_Rebuttal/blob/main/figures/tsne_all.png)
 
