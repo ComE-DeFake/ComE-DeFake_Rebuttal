@@ -1,6 +1,6 @@
 # WWW Rebuttal of ComE-DeFake 
 
-## 1. Early Detection Results (Supplementary Experiment)
+## 1. Early Detection Results (Newly Added Experiment)
 ### 1.1 Results on dataset ReCOV
 <div style="display:inline-block">
   <img src="/figures/recovery_early_acc.png" alt="image1" width="320">
@@ -13,7 +13,7 @@
   <img src="/figures/mmcovid_early_users.png" alt="image2" width="300">
 </div>
 
-## 2. The Updated Table 2 (Supplementary Baselines)
+## 2. The Updated Table 2 (Newly Added Baselines)
 ![Table2](https://github.com/ComE-DeFake/ComE-DeFake_Rebuttal/blob/main/figures/table2.png)
 
 We compared our proposed method with the three latest methods: BERTweet [1], Llama 2 [2], and HG-SL [3]. 
