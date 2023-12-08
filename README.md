@@ -47,7 +47,7 @@ For each piece of source news, we crawl its relevant tweets through Twitter API.
 The value of `'user'` in the above list is again a dictionary that contains, but not only, the features we described in __3.1__.
 
 
-## 4. Comparison of t-SNE visualization
+## 4. The Updated Figure 5: Comparison of t-SNE Visualization
 ![tSNE](https://github.com/ComE-DeFake/ComE-DeFake_Rebuttal/blob/main/figures/tsne_all.png)
 
 
