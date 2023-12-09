@@ -7,7 +7,7 @@
   <img src="/figures/recovery_early_users.png" alt="image2" width="300">
 </div>
 
-### 1.1 Results on dataset MM-C
+### 1.2 Results on dataset MM-C
 <div style="display:inline-block">
   <img src="/figures/mmcovid_early_acc.png" alt="image1" width="320">
   <img src="/figures/mmcovid_early_users.png" alt="image2" width="300">
