@@ -53,7 +53,6 @@ The value of `'user'` in the above list is again a dictionary that contains, but
 
 ## 5. Statistical Significance - P Value
 
-
 | ReCOV | ComE-DeFake | ComE-DeFake |  ComE-DeFake | ComE-DeFake | ComE-DeFake | ComE-DeFake | ComE-DeFake |  ComE-DeFake | ComE-DeFake | ComE-DeFake |
 | --- | ----------- | ----------- | ----------- |----------- |----------- |----------- |----------- |----------- |----------- |----------- |
 |         | __TextCNN__     | __HAN__         |      __BERT__   |   __TextGCN__   |   __HyperGAT__  |   __DualEmo__   | __HGFND__       |    __BERTweet__ | __Llama__     |   __HG-SL__     |
@@ -61,6 +60,16 @@ The value of `'user'` in the above list is again a dictionary that contains, but
 | __Pre__  | 1.79e-05 | 1.58e-06 | 0.0016   | 0.0023   | 1.38e-07 | 0.0005   | 0.0021 | 4.58e-06 | 0.0029 | 0.0067 |
 | __Rec__  | 2.94e-05 | 0.0012   | 0.0039   | 0.0002   | 3.82e-07 | 0.0007   | 0.0067 | 9.07e-05 | 0.0218 | 0.0056 |
 | __F1__   | 5.16e-05 | 1.26e-05 | 5.14e-05 | 9.00e-04 | 1.77e-07 | 5.00e-04 | 0.0023 | 6.37e-05 | 0.0099 | 0.0058 |
+
+| MM-C | ComE-DeFake | ComE-DeFake |  ComE-DeFake | ComE-DeFake | ComE-DeFake | ComE-DeFake | ComE-DeFake |  ComE-DeFake | ComE-DeFake | 
+| --- | ----------- | ----------- | ----------- |----------- |----------- |----------- |----------- |----------- |----------- |
+|         | __TextCNN__     | __HAN__         |      __BERT__   |   __TextGCN__   |   __DualEmo__   | __HGFND__       |    __BERTweet__ | __Llama__     |   __HG-SL__     |
+| __ACC__  | 1.72e-06 | 1.11e-06 | 3.24e-06 | 0.0687 | 0.0043 | 0.0007   | 0.0066 | 2.61e-06 | 0.0097 | 0.0067 |
+| __Pre__  | 5.19e-07 | 2.14e-05 | 9.77e-07 | 0.1039 | 0.0032 | 0.0005   | 0.0021 | 4.58e-06 | 0.0029 | 0.0067 |
+| __Rec__  | 1.74e-06 | 3.32E-06 | 0.0007   | 0.0819 | 0.0122 | 0.0007   | 0.0067 | 9.07e-05 | 0.0218 | 0.0056 |
+| __F1__   | 4.44e-07 | 2.11e-05 | 2.11e-05 | 0.0939 | 0.0064 | 5.00e-04 | 0.0023 | 6.37e-05 | 0.0099 | 0.0058 |
+
+
 
 
 ## 6. Running Time
