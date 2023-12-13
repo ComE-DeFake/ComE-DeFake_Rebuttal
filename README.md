@@ -3,14 +3,20 @@
 ## 1. Early Detection Results (Newly Added Experiment)
 ### 1.1 Results on dataset ReCOV
 <div style="display:inline-block">
-  <img src="/figures/recovery_early_acc.png" alt="image1" width="320">
-  <img src="/figures/recovery_early_users.png" alt="image2" width="300">
+  <img src="/figures/recovery_early_acc.png" alt="image1" width="280">
+  <img src="/figures/recovery_early_users.png" alt="image2" width="260">
 </div>
 
 ### 1.2 Results on dataset MM-C
 <div style="display:inline-block">
-  <img src="/figures/mmcovid_early_acc.png" alt="image1" width="320">
-  <img src="/figures/mmcovid_early_users.png" alt="image2" width="300">
+  <img src="/figures/mmcovid_early_acc.png" alt="image1" width="280">
+  <img src="/figures/mmcovid_early_users.png" alt="image2" width="260">
+</div>
+
+### 1.2 Results on dataset PolitiFact
+<div style="display:inline-block">
+  <img src="/figures/politifact_acc.png" alt="image1" width="280">
+  <img src="/figures/politifact_users.png" alt="image2" width="260">
 </div>
 
 ## 2. The Updated Table 2 (Newly Added Baselines)
